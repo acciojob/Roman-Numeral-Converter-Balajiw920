@@ -26,7 +26,6 @@ function convertToRoman(num) {
     1000: "M"
 };
 
-function toRoman(num) {
     let roman = "";
     let keys = Object.keys(SYMBOLS).reverse();
     for (let i = 0; i < keys.length; i++) {
@@ -37,11 +36,10 @@ function toRoman(num) {
         }
     }
     return roman;
-}
 
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
- console.log(converttoRoman(36));
+ console.log(convertToRoman(36));
 
 
 
